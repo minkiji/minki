@@ -345,6 +345,12 @@ body.fade-in {
   gap: 15px;
   border: 1px solid #ffffff70;
   border-radius: 5px;
+  position: relative;
+}
+
+.blog-content:hover {
+  transform: translate(0, -10px);
+  transition: transform ease 600ms;
 }
 
 .blog-content ul {
