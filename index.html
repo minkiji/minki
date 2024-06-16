@@ -5,8 +5,8 @@
   <title>Minki</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media/media.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -18,12 +18,12 @@
 <body>
 
   <div class="site-header">
-    <a href="#home"><img src="img/minki.png" alt="Minki"></a>
+    <a href="index.html"><img src="img/minki.png" alt="Minki"></a>
     <a href="https://www.instagram.com/p/C78u3hDxyjQ/?img_index=2" target="_blank"><i class="fa fa-heart-o"
         aria-hidden="true"></i></a>
   </div>
 
-  <div id="home" class="background">
+  <div class="background">
     <div class="image" style="background-image: url(img/IZONE-indah-tan-art.png);"></div>
   </div>
 
@@ -43,9 +43,9 @@
           <h3 class="animate-delay" style="transition-delay: 0.3s;">About me</h3>
         </div>
         <div class="about-content">
-          <p class="animate-delay" style="transition-delay: 0.5s;">I'm a huge fan of functional programming and
+          <p class="animate-delay" style="transition-delay: 0.4s;">I'm a huge fan of functional programming and
             anti-abuse + trust & safety.</p>
-          <p class="animate-delay" style="transition-delay: 0.7s;">
+          <p class="animate-delay" style="transition-delay: 0.5s;">
             Recently, I've been delving into <span class="text-style">Tailwind,</span> <span
               class="text-style">JavaScript,</span> and <span class="text-style">UI/UX.</span> I began coding in August
             2023. I have a keen
@@ -54,10 +54,10 @@
             tends to be my primary focus.
             Remember, to have a great day,
             think of An-Yujin!</p>
-          <p class="animate-delay" style="transition-delay: 0.9s;">I'm currently residing in Tarlac, Philippines, but I
+          <p class="animate-delay" style="transition-delay: 0.6s;">I'm currently residing in Tarlac, Philippines, but I
             might soon live in Denmark or
             Switzerland.</p>
-          <div class="socials animate-delay" style="transition-delay: 1.1s;">
+          <div class="socials animate-delay" style="transition-delay: 0.7s;">
             <span>MINKI Socials</span>
             <div class="minki-socials">
               <a href="">Facebook</a>
@@ -72,7 +72,25 @@
 
       <div class="experience-section">
         <div class="experience-title">
-          <h3>Experience</h3>
+          <h3 class="animate-delay">Experience</h3>
+        </div>
+        <div class="timeline animate-delay" style="transition-delay: 0.2s;">
+          <div class="experience-flex animate-delay" style="transition-delay: 0.3s;">
+            <div class="experience-work">
+              <span>Layout Artist</span>
+              <p>Freelance</p>
+            </div>
+            <div class="experience-date">
+              <p>Feb 2023 — Present</p>
+            </div>
+          </div>
+          <div class="experience-content">
+            <p class="animate-delay" style="transition-delay: 0.4s;">As a Layout Artist, I designed and developed
+              compelling layouts using Figma, Canva, and Adobe
+              Illustrator,
+              collaborating with cross-functional teams to create visually appealing marketing materials, websites, and
+              print publications, ensuring high-quality standards and consistency across all projects.</p>
+          </div>
         </div>
       </div>
 
@@ -102,7 +120,7 @@
               </li>
             </ul>
           </div>
-          <div class="projects animate-delay" style="transition-delay: 0.4s;">
+          <div class="projects animate-delay" style="transition-delay: 0.3s;">
             <ul>
               <li>
                 <a href="https://minkiji.github.io/ive" target="_blank">
@@ -111,7 +129,8 @@
                   </div>
                   <div class="projects-content">
                     <p class="projects-name">IVE World tour</p>
-                    <p>This site is dedicated to promoting IVE's world tour and their new comeback. Stay updated with tour
+                    <p>This site is dedicated to promoting IVE's world tour and their new comeback. Stay updated with
+                      tour
                       dates, news, and exclusive content. Thank you for your support!</p>
                     <ul>
                       <li>HTML</li>
@@ -128,9 +147,38 @@
 
       <div class="blog-section">
         <div class="blog-title">
-          <h3>Recent Blog Posts</h3>
+          <h3 class="animate-delay">Recent Blog Posts</h3>
         </div>
+        <a class="blog" href="from-pro-player-to-aspiring-coder.html">
+          <div class="blog-content animate-delay" style="transition-delay: 0.2s;">
+            <div class="blog-image">
+              <img src="img/blog-images/minki-reading.jpg" alt="Minki Reading">
+            </div>
+            <div class="blog-name">
+              <div class="blog-title-read">
+                <h2>From pro player to aspiring coder</h2>
+                <p style="margin-top: 5px; margin-bottom: 10px;">I want to share my journey from being a professional gamer to discovering
+                  my
+                  passion for coding.</p>
+                <span style="margin-bottom: 10px; font-size: 12px;">Posted 1 week ago</span>
+              </div>
+              <div class="about-blog">
+                <ul>
+                  <li>7 min read</li>
+                  <li>Life</li>
+                  <li>Guide</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
+
+      <div class="site-footer">
+        <span>Looking for the old site? It's still up on <a href="https://minkiji.github.io/minkiarra/"
+            target="_blank">minkiarra.dev</a></span>
+      </div>
+
     </div>
   </div>
 
@@ -140,7 +188,7 @@
     <span>STAYC</span>
   </div>
 
-  <script src="index.js"></script>
+  <script src="javascript/index.js"></script>
 
 </body>
 
