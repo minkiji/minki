@@ -147,6 +147,10 @@
     font-size: 19px;
   }
 
+  .blog-content {
+    gap: 0;
+  }
+
   .blog-content img {
     display: none;
   }
