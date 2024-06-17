@@ -220,7 +220,8 @@ body.fade-in {
 }
 
 .twitter-link:hover {
-  transform: scale(1.05);
+  transform: translate(0, -5px);
+  transition: transform ease 300ms;
 }
 
 

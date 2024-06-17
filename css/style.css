@@ -90,6 +90,7 @@ body.fade-in {
   line-height: 120%;
   font-size: 50px;
   padding-top: 75px;
+  flex-wrap: wrap;
 }
 
 .about-section {
@@ -117,6 +118,7 @@ body.fade-in {
   display: flex;
   gap: 25px;
   font-size: 17px;
+  flex-wrap: wrap;
 }
 
 .minki-socials a {
@@ -225,11 +227,10 @@ body.fade-in {
   text-decoration: none;
   color: #fff;
   position: relative;
-  transition: 0.2s;
 }
 
 .projects-image {
-  padding: 15px;
+  padding: 15px 0px 15px 15px;
 }
 
 .projects-image img {
@@ -252,7 +253,7 @@ body.fade-in {
 }
 
 .language-used {
-  padding: 0px 15px 15px;
+  padding: 0px 15px 22px;
 }
 
 .projects-about p {
@@ -263,6 +264,7 @@ body.fade-in {
 .language-used ul {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .language-used li {
@@ -292,7 +294,7 @@ body.fade-in {
   background-color: #fff;
 }
 
-.projects:hover {
+.projects:hover .projects-about {
   color: #000;
 }
 
@@ -336,7 +338,7 @@ body.fade-in {
 
 .blog-content:hover {
   transform: translate(0, -10px);
-  transition: transform ease 600ms;
+  transition: transform ease 450ms;
 }
 
 .blog-content ul {

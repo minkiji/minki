@@ -1,0 +1,263 @@
+@media (max-width: 1536px) {
+
+  .about-section {
+    padding-right: 200px;
+  }
+
+  .experience-section {
+    padding-right: 200px;
+  }
+
+  .projects-section {
+    padding-right: 200px;
+  }
+
+  .blog-section {
+    padding-right: 200px;
+  }
+
+}
+
+@media (max-width: 1420px) {
+
+  .about-section {
+    padding-right: 150px;
+  }
+
+  .experience-section {
+    padding-right: 150px;
+  }
+
+  .projects-section {
+    padding-right: 150px;
+  }
+
+  .blog-section {
+    padding-right: 150px;
+  }
+
+}
+
+@media (max-width: 1365px) {
+
+  .about-section {
+    padding-right: 100px;
+  }
+
+  .experience-section {
+    padding-right: 100px;
+  }
+
+  .projects-section {
+    padding-right: 100px;
+  }
+
+  .blog-section {
+    padding-right: 100px;
+  }
+
+}
+
+@media (max-width: 1316px) {
+
+  .graph-paper {
+    padding-left: 100px;
+  }
+
+  .site-header {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ffffff70;
+  }
+
+  .img-link {
+    display: flex;
+  }
+
+  .site-header img {
+    width: 100px;
+  }
+
+  .site-header a {
+    font-size: 27px;
+  }
+
+  .site-components {
+    top: 180px;
+    right: -31.5px;
+  }
+
+}
+
+@media (max-width: 1040px) {
+
+  .projects-image {
+    display: none;
+  }
+
+  .headline {
+    font-size: 45px
+  }
+
+  .about h3 {
+    font-size: 30px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+
+  .minki-socials {
+    font-size: 16px;
+  }
+
+  .experience-title h3 {
+    font-size: 30px;
+  }
+
+  .experience-work span {
+    font-size: 20px;
+  }
+
+  .experience-work p,
+  .experience-date p,
+  .experience-content p {
+    font-size: 16px;
+  }
+
+  .projects-title h3 {
+    font-size: 30px;
+  }
+
+  .project-media {
+    font-size: 25px !important;
+  }
+
+  .blog-title h3 {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .blog-title-read h2 {
+    font-size: 19px;
+  }
+
+  .blog-content img {
+    display: none;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  .site-header img {
+    width: 90px;
+  }
+
+  .site-header a {
+    font-size: 20px;
+  }
+
+  .site-header {
+    padding: 12px;
+  }
+
+  .graph-paper {
+    padding-left: 30px;
+  }
+
+  .about-section {
+    padding-right: 30px;
+  }
+
+  .experience-section {
+    padding-right: 30px;
+  }
+
+  .projects-section {
+    padding-right: 30px;
+  }
+
+  .blog-section {
+    padding-right: 30px;
+  }
+
+  .headline {
+    font-size: 40px;
+  }
+
+  .about h3 {
+    font-size: 22px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  .minki-socials {
+    font-size: 14px;
+  }
+
+  .experience-title h3 {
+    font-size: 22px;
+  }
+
+  .experience-work span {
+    font-size: 16px;
+  }
+
+  .experience-work p,
+  .experience-date p,
+  .experience-content p {
+    font-size: 14px;
+  }
+
+  .projects-title h3 {
+    font-size: 22px;
+  }
+
+  .project-media {
+    font-size: 19px !important;
+  }
+
+  .projects-about p {
+    font-size: 14px;
+  }
+
+  .blog-title h3 {
+    font-size: 22px;
+  }
+
+  .blog-title-read p {
+    font-size: 14px;
+  }
+
+  .site-components {
+    font-size: 8px;
+    top: 135px;
+    right: -37.5px;
+  }
+
+  .language-used li {
+    font-size: 10px;
+  }
+
+  .site-footer span {
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 460px) {
+
+  .headline {
+    font-size: 35px;
+    padding-right: 30px;
+  }
+
+}
