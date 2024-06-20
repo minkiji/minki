@@ -315,6 +315,12 @@ body.fade-in {
   margin-bottom: 20px;
 }
 
+.blog-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 .blog {
   text-decoration: none;
   color: #fff;
