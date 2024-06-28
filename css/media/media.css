@@ -155,10 +155,6 @@
     display: none;
   }
 
-  .scroll-down {
-    padding-top: calc(100vh - 120px);
-  }
-
 }
 
 @media (max-width: 640px) {
