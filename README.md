@@ -1,2 +1,1 @@
-# minki-cute-theme
- 
+minki
