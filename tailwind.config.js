@@ -5,6 +5,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        lightblue: '#e3f2ff',
+        lightpink: '#fae0f0',
+        lightgreen: '#ccf7df',
+        lightyellow: '#fcf2d8',
+
+        strongyellow: '#f5db99',
+        strongblue: '#b7ddff',
+        strongpink: '#ffb6e3',
+        stronggreen: '#76e0a6',
+
         pencil: '#7c7c7c',
         borderlight: '#bbbbbb',
         minkidark: '#000000',

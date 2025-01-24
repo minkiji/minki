@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -566,12 +570,20 @@ video {
   bottom: 0.5rem;
 }
 
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .left-0 {
   left: 0px;
 }
 
 .left-1\.5 {
   left: 0.375rem;
+}
+
+.right-5 {
+  right: 1.25rem;
 }
 
 .top-0 {
@@ -632,10 +644,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -680,6 +688,11 @@ video {
   display: none;
 }
 
+.size-3\.5 {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
 .size-4 {
   width: 1rem;
   height: 1rem;
@@ -717,10 +730,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-1 {
-  height: 0.25rem;
 }
 
 .w-16 {
@@ -855,36 +864,8 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-\[14px\] {
-  border-radius: 14px;
-}
-
-.rounded-\[13\.5px\] {
-  border-radius: 13.5px;
-}
-
-.rounded-\[13px\] {
-  border-radius: 13px;
-}
-
-.rounded-\[13\.2px\] {
-  border-radius: 13.2px;
-}
-
-.rounded-\[13\.3px\] {
-  border-radius: 13.3px;
-}
-
-.rounded-\[13\.4px\] {
-  border-radius: 13.4px;
-}
-
 .border-\[1px\] {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-t {
@@ -911,6 +892,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 
+.bg-lightblue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 242 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-pencil {
   --tw-bg-opacity: 1;
   background-color: rgb(124 124 124 / var(--tw-bg-opacity, 1));
@@ -921,14 +907,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-minkidark {
+.bg-strongblue {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-minkidarkprimary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
+  background-color: rgb(183 221 255 / var(--tw-bg-opacity, 1));
 }
 
 .object-cover {
@@ -997,6 +978,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1021,10 +1007,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .text-2xl {
@@ -1097,21 +1079,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-blue-400 {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
-}
-
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1120,6 +1087,12 @@ video {
 
 .transition-colors {
   transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -1216,6 +1189,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.hover\:opacity-70:hover {
+  opacity: 0.7;
+}
+
 .hover\:shadow-md:hover {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -1280,19 +1257,29 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-lightpink:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 224 240 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:bg-strongpink:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 182 227 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:text-black:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-white:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .dark\:text-pink-400:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(244 114 182 / var(--tw-text-opacity, 1));
+}
+
+.dark\:text-white:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .dark\:hover\:bg-darkborder:hover:is(.dark *) {
